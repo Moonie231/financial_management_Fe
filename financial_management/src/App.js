@@ -1,5 +1,6 @@
 import './App.css';
 import {Route, Routes} from "react-router-dom";
+import Wallet from "./pages/wallet";
 import { useSelector } from "react-redux";
 import Login from "./page/user/login";
 import Register from "./page/user/register";
@@ -24,5 +25,12 @@ function App() {
       </Routes>
     </>
   );
+    return (
+        <>
+            <Routes>
+                <Route path={'wallets/:idUser'} element={<Wallet></Wallet>}></Route>
+            </Routes>
+        </>
+    );
 }
 export default App;

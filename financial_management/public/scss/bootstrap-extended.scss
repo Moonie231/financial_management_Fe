@@ -1,0 +1,53 @@
+// ================================================================================================
+// 	File Name: bootstrap-extended.scss
+// 	Description: List of modified Bootstrap files. This is an actual copy of bootstrap.scss
+// 				  excluding files that have not been modified.
+// 	----------------------------------------------------------------------------------------------
+// 	Item Name: CryptoDash - Free Cryptocurrency Dashboard Template
+// 	Version: 1.0
+// 	Author: ThemeSelection
+// 	Author URL: https://themeselection.com/
+// ================================================================================================
+
+// Core variables and mixins
+@import "public/scss/bootstrap/functions";
+@import "public/scss/bootstrap/mixins";
+@import "public/scss/bootstrap-extended/mixins";
+
+// Load variable overrides
+@import "public/scss/core/variables/variables";
+@import "public/scss/core/variables/components-variables";
+
+// Overrides user variable
+@import "../../../../CaseMD4/front-End/assets/scss/variables/variables";
+@import "../../../../CaseMD4/front-End/assets/scss/variables/components-variables";
+
+// // Core CSS
+@import "public/scss/bootstrap-extended/reboot";
+@import "public/scss/bootstrap-extended/type";
+@import "public/scss/bootstrap-extended/code";
+@import "public/scss/bootstrap-extended/grid";
+@import "public/scss/bootstrap-extended/tables";
+@import "public/scss/bootstrap-extended/forms";
+@import "public/scss/bootstrap-extended/buttons";
+
+// // Components
+@import "public/scss/bootstrap-extended/animation";
+@import "public/scss/bootstrap-extended/dropdown";
+@import "public/scss/bootstrap-extended/navbar";
+@import "public/scss/bootstrap-extended/card";
+@import "public/scss/bootstrap-extended/breadcrumb";
+@import "public/scss/bootstrap-extended/pagination";
+@import "public/scss/bootstrap-extended/badge";
+@import "public/scss/bootstrap-extended/nav";
+@import "public/scss/bootstrap-extended/alert";
+@import "public/scss/bootstrap-extended/media";
+@import "public/scss/bootstrap-extended/progress";
+@import "public/scss/bootstrap-extended/list-group";
+
+// // Components w/ JavaScript
+@import "public/scss/bootstrap-extended/modal";
+@import "public/scss/bootstrap-extended/popover";
+
+// // Utility classes
+@import "public/scss/bootstrap-extended/utilities";

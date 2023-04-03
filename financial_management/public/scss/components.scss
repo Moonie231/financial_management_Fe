@@ -1,0 +1,49 @@
+// ================================================================================================
+// 	File Name: components.scss
+// 	Description: Common components file to includ all theme specific custom components.
+// 	----------------------------------------------------------------------------------------------
+// 	Item Name: CryptoDash - Free Cryptocurrency Dashboard Template
+// 	Version: 1.0
+// 	Author: ThemeSelection
+// 	Author URL: https://themeselection.com/
+// ================================================================================================
+
+// Variables
+// ------------------------------
+
+// Core variables and mixins
+@import "public/scss/bootstrap/functions";
+@import "public/scss/bootstrap/mixins";
+@import "public/scss/bootstrap-extended/mixins";
+
+// Core variables and mixins overrides
+@import "public/scss/core/variables/variables";
+@import "public/scss/core/variables/components-variables";
+@import "public/scss/core/mixins/transitions";
+
+// Overrides user variable
+@import "../../../../CaseMD4/front-End/assets/scss/variables/variables";
+@import "../../../../CaseMD4/front-End/assets/scss/variables/components-variables";
+
+// Perfect Scrollbar
+
+// Core
+// ------------------------------
+// layouts
+@import "public/scss/core/layouts/content";
+@import "public/scss/core/layouts/sidebar";
+//- @import "core/layouts/demo";  //- //- For demo only
+@import "public/scss/core/layouts/footer";
+// menu
+@import "public/scss/core/menu/navigation";
+
+// Components
+// ------------------------------
+@import "public/scss/components/helper";
+@import "public/scss/components/avatar";
+@import "public/scss/components/search";
+
+// Plugins
+// ------------------------------
+@import "public/scss/plugins/menu/perfect-scrollbar/ps-custom";
+@import "public/scss/plugins/ui/breakpoints";

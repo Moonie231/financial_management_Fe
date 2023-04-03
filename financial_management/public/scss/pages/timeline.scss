@@ -1,0 +1,64 @@
+// ================================================================================================
+// 	File Name: timeline.scss
+// 	Description: Timeline Page specific SCSS.
+// 	----------------------------------------------------------------------------------------------
+// 	Item Name: CryptoDash - Free Cryptocurrency Dashboard Template
+// 	Version: 1.0
+// 	Author: ThemeSelection
+// 	Author URL: https://themeselection.com/
+// ================================================================================================
+// Core mixins
+@import "public/scss/bootstrap/functions";
+@import "public/scss/bootstrap/mixins";
+@import "public/scss/bootstrap-extended/mixins";
+
+// Core variables and mixins overrides
+@import "public/scss/core/variables/variables";
+@import "public/scss/core/variables/components-variables";
+
+// Overrides user variable
+@import "../../../../../CaseMD4/front-End/assets/scss/variables/variables";
+@import "../../../../../CaseMD4/front-End/assets/scss/variables/components-variables";
+
+// Include horizontal time-line
+@import "public/scss/plugins/timeline/timeline-horizontal";
+
+/* Timeline */
+.timeline {
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 10px 0;
+	list-style: none;
+	&:after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+	&:before {
+		content: " ";
+		display: table;
+	}
+	>li {
+		list-style: none;
+		&:nth-child(even) {
+			float: left;
+			clear: left;
+		}
+		&:nth-child(odd) {
+			float: right;
+			clear: right;
+			//margin-top: 20px;
+		}
+	}
+	.media {
+		border-bottom: 1px solid #eee;
+		font-size: 13px;
+		p {
+			font-size: 13px;
+		}
+		&:last-child {
+			border-bottom: 0;
+		}
+	}
+}

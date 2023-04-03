@@ -1,15 +1,15 @@
 import './App.css';
 import {Route, Routes} from "react-router-dom";
-import Helo from "./helo";
+import Wallet from "./pages/wallet";
 
 function App() {
-  return (
-    <>
-      <Routes>
-<Route path = {''} element={<Helo></Helo>}></Route>
-      </Routes>
-    </>
-  );
+    return (
+        <>
+            <Routes>
+                <Route path={'wallets/:idUser'} element={<Wallet></Wallet>}></Route>
+            </Routes>
+        </>
+    );
 }
 
 export default App;

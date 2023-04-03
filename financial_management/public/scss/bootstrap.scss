@@ -1,0 +1,42 @@
+/*!
+ * Bootstrap v4.1.0 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import "public/scss/bootstrap/functions";
+@import "public/scss/core/variables/variables"; //Load our custom variable to override
+@import "public/scss/bootstrap/mixins";
+@import "public/scss/bootstrap/root";
+@import "public/scss/bootstrap/print";
+@import "public/scss/bootstrap/reboot";
+@import "public/scss/bootstrap/type";
+@import "public/scss/bootstrap/images";
+@import "public/scss/bootstrap/code";
+@import "public/scss/bootstrap/grid";
+@import "public/scss/bootstrap/tables";
+@import "public/scss/bootstrap/forms";
+@import "public/scss/bootstrap/buttons";
+@import "public/scss/bootstrap/transitions";
+@import "public/scss/bootstrap/dropdown";
+@import "public/scss/bootstrap/button-group";
+@import "public/scss/bootstrap/input-group";
+@import "public/scss/bootstrap/custom-forms";
+@import "public/scss/bootstrap/nav";
+@import "public/scss/bootstrap/navbar";
+@import "public/scss/bootstrap/card";
+@import "public/scss/bootstrap/breadcrumb";
+@import "public/scss/bootstrap/pagination";
+@import "public/scss/bootstrap/badge";
+@import "public/scss/bootstrap/jumbotron";
+@import "public/scss/bootstrap/alert";
+@import "public/scss/bootstrap/progress";
+@import "public/scss/bootstrap/media";
+@import "public/scss/bootstrap/list-group";
+@import "public/scss/bootstrap/close";
+@import "public/scss/bootstrap/modal";
+@import "public/scss/bootstrap/tooltip";
+@import "public/scss/bootstrap/popover";
+@import "public/scss/bootstrap/carousel";
+@import "public/scss/bootstrap/utilities";
